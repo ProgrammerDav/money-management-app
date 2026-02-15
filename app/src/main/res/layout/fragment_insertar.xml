@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/LayoutPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Concepto -->
+        <EditText
+            android:id="@+id/concepto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Concepto"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Tienda -->
+        <EditText
+            android:id="@+id/tienda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tienda"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Cantidad -->
+        <EditText
+            android:id="@+id/cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="€"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Persona -->
+        <Spinner
+            android:id="@+id/Persona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Botón de enviar -->
+        <Button
+            android:id="@+id/botonEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:layout_marginTop="16dp"/>
+        <!-- Botón de modificar -->
+        <Button
+            android:id="@+id/botonModificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modicar nombres"/>
+
+    </LinearLayout>
+
+</ScrollView>

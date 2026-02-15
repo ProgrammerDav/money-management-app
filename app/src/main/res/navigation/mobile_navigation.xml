@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Principal">
+
+    <fragment
+        android:id="@+id/navigation_Principal"
+        android:name="com.example.gastos.ui.Principal.PrincipalFragment"
+        android:label="Principal"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/navigation_Datos"
+        android:name="com.example.gastos.ui.Datos.DatosFragment"
+        android:label="Datos"
+        tools:layout="@layout/fragment_datos" />
+
+    <fragment
+        android:id="@+id/navigation_Insertar"
+        android:name="com.example.gastos.ui.Insertar.InsertarFragment"
+        android:label="Insertar"
+        tools:layout="@layout/fragment_insertar" />
+</navigation>

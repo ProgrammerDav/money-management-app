@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Principal"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Principal" />
+
+    <item
+        android:id="@+id/navigation_Datos"
+        android:icon="@drawable/outline_article_black"
+        android:title="Datos" />
+
+    <item
+        android:id="@+id/navigation_Insertar"
+        android:icon="@drawable/outline_add_ad_black"
+        android:title="Insertar" />
+
+</menu>
